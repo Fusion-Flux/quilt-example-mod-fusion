@@ -1,7 +1,7 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
+		"group": "com.fusionflux",
 		"id": "example_mod",
 		"version": "${version}",
 		"metadata": {
@@ -14,7 +14,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "com.fusionflux.example_mod.ExampleMod"
 		},
 		"depends": [
 			{
